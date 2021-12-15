@@ -22,9 +22,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+ 
 }
