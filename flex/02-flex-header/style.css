@@ -1,6 +1,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* this changed from vertical to horizontal*/
   display: flex;
 }
 
@@ -13,7 +14,9 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
+  /* this changed from vertial to horizontal*/
+  display: flex;
+    /* this removes the dots on the list items*/
   list-style-type: none;
 }
 
