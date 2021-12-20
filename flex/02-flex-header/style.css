@@ -3,6 +3,8 @@
   background: papayawhip;
   /* this changed from vertical to horizontal*/
   display: flex;
+    /* this put the list to the left and right side of the logo*/
+  justify-content: space-between;
 }
 
 .logo {
