@@ -20,18 +20,13 @@ body {
   justify-content: space-between
   
 }
-.left {
+.left, .right {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  gap: 16px;
 
 }
-.right {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -67,5 +62,5 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
 }
