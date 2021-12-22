@@ -1,3 +1,13 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin: 32px;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+
+}
 body {
   font-family: 'Courier New', Courier, monospace;
 }
