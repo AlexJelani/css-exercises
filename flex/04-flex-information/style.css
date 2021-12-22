@@ -1,17 +1,15 @@
-.container1 {
-  display: flex;
-  justify-content: center;
-  margin: 32px;
-}
-.container2 {
+.container {
   display: flex;
   align-items: center;
-  gap: 52px;
   justify-content: center;
-  
+  gap: 52px;
+}
+.info {
+  max-width: 200px;
 }
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -22,6 +20,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
 
 
