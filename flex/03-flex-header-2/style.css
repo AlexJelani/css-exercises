@@ -14,8 +14,22 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   padding: 8px;
   /* Centered items in the header */
+  padding: 8px;
   display: flex;
   align-items: center;
+  justify-content: space-between
+  
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+}
+.right {
+  display: flex;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
