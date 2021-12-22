@@ -6,6 +6,8 @@
 .container2 {
   display: flex;
   align-items: center;
+  gap: 52px;
+  
 
 }
 body {
@@ -13,7 +15,7 @@ body {
 }
 
 img {
-  width: 100px;
+  width: 200px;
   height: 100px;
 }
 
@@ -21,6 +23,7 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+
 
 /* do not edit this footer */
 .footer {
