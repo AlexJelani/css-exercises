@@ -2,10 +2,8 @@
 
 .container {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
 html, body {
@@ -24,6 +22,7 @@ body {
 }
 
 .modal {
+  padding: 8px;
   background: white;
   width: 480px;
   border-radius: 10px;
