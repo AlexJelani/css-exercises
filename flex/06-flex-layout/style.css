@@ -26,3 +26,8 @@ input {
   margin-bottom: 16px;
 }
 /* Solution */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
