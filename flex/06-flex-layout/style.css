@@ -32,6 +32,9 @@ input {
   align-items: center;
 }
 ul {
-  text-decoration: none;
   list-style-type: none;
 }
+ a {
+  text-decoration: none;
+
+ }
