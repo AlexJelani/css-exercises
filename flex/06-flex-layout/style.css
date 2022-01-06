@@ -26,10 +26,12 @@ input {
   margin-bottom: 16px;
 }
 /* Solution */
-.container {
+.content {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 ul {
   list-style-type: none;
