@@ -30,10 +30,21 @@ body {
   background: royalblue;
 }
 
+.cards {
+    /*Solution */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  list-style: none;
+}
 .card {
+  display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 200px;
+  margin: 10px;
 }
 /*Solution */
 .header ,.footer {
