@@ -30,6 +30,18 @@ body {
   flex: 0 0 300px;
   background: royalblue;
 }
+/* Solution */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
+  font-size: 24px;
+  gap: 8px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
 
 .cards {
     /*Solution */
@@ -38,6 +50,7 @@ body {
   flex-direction: row;
   align-content: flex-start;
   list-style: none;
+  padding: 32px;
 }
 .card {
   display: flex;
