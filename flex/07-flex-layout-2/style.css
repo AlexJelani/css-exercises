@@ -50,6 +50,7 @@ a {
   list-style: none;
   padding: 1em 0;
   text-align: left;
+  padding: 32px;
 }
 .card {
   width: 30%;
