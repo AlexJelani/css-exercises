@@ -43,22 +43,26 @@ a {
   text-decoration: none;
 }
 
-.cards {
+.container {
     /*Solution */
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-content: flex-start;
   list-style: none;
-  padding: 32px;
+  padding: 1em 0;
+  text-align: left;
 }
 .card {
+  width: 30%;
   display: flex;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 200px;
-  margin: 10px;
+  padding: .6em 1em .6em .6em;
+  margin-bottom: 1em;
+}
+
+.content p {
+  margin: 5px;
 }
 /*Solution */
 .header ,.footer {
