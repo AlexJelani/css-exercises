@@ -8,30 +8,19 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  font-size: 32px;
-  font-weight: 600;
-  padding: 16px;
-  /*Same height */
-  line-height: 30px;
-  height: 30px;}
+  }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  /*Solution */
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .sidebar {
-  /* Solution 300px sidebar */
-  flex: 0 0 300px;
   background: royalblue;
-  justify-content: space-between;
+  width: 300px;
 }
-/* Solution */
+
 ul {
   display: flex;
   flex-direction: column;
@@ -46,40 +35,9 @@ a {
   text-decoration: none;
 }
 
-.container {
-    /*Solution */
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 1em 0;
-  text-align: left;
-  padding: 32px;
-}
-.card {
-  margin: 10px;
-  width: 30%;
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
-  padding: .6em 1em .6em .6em;
-  margin-bottom: 1em;
-}
+ /*Solution */
 
-.content p {
-  margin: 5px;
-}
-/*Solution */
-.header ,.footer {
-  flex: none;
-}
-
-.HolyGrail {
+body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
-}
-.HolyGrail-body {
-  display: flex;
-  flex: 1
-  ;
 }
